@@ -8,7 +8,7 @@ function getRandom(min, max){
 if (loveScore > 70) {
     alert("Amazing! " + you + ", Your score is " + getRandom(1, 100) + "% with " + crush + "." );
 } 
-if (loveScore > 30 && loveScore <= 70) {
+else if (loveScore > 30 && loveScore <= 70) {
     alert("Wow! " + you + ", Your score is " + getRandom(1, 100) + "% with " + crush + "." );
 }
 
